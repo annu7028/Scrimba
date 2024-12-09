@@ -1,0 +1,41 @@
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+        <div class="container"><h1>P<span id="period"></span></h1></div>
+        <div class="container">
+            <div class="home">
+                <h3 id="home">HOME</h3>
+                <div class="points">
+                    <span id="home-score"></span>
+                </div>
+                <div class="btns home">
+                    <button class="add-point" id="plus1-home" onclick="hPlus1()">+1</button>
+                    <button class="add-point" id="plus2-home" onclick="hPlus2()">+2</button>
+                    <button class="add-point" id="plus3-home" onclick="hPlus3()">+3</button>
+                </div>
+            </div>
+            <div class="guest">
+                <h3 id="guest">GUEST</h3>
+                <div class="points">
+                    <span id="guest-score"></span>
+                </div>
+                <div class="btns guest">
+                    <button class="add-point" id="plus1-guest" onclick="gPlus1()">+1</button>
+                    <button class="add-point" id="plus2-guest" onclick="gPlus2()">+2</button>
+                    <button class="add-point" id="plus3-guest" onclick="gPlus3()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <button class="new" id="new-game" onclick="newGame()">New Game</button>
+        </div>
+        <div class="container">
+            <button class="new" id="new-period" onclick="newPeriod()">New Period</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

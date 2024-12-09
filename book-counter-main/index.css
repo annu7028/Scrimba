@@ -1,0 +1,52 @@
+body {
+    background-image: url("library.jpg");
+    background-size: cover;
+    height: 100vh;
+    font-family:  'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container{
+    max-width: 80%;
+    margin: 24px auto;
+    padding: 8px;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 16px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+}
+
+#increment-btn {
+    background: #381B14;
+}
+
+#save-btn {
+    background: #65542F;
+}
+
